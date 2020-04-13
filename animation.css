@@ -1,0 +1,36 @@
+@keyframes slideImg {
+    0% {transform: translateX(-150%);}
+    100%{transform: translateX(0%);}
+}
+
+
+@keyframes slide {
+    0% {transform: translateX(-150%) rotate(0deg) ;
+    }
+    100% {
+        transform: translateX(0%) rotate(360deg);
+    }
+}
+
+.main-content img {
+    animation: slideImg 2s forwards;
+}
+
+.main-content p {
+    animation: slide 2s;
+}
+
+
+.btn {
+    color: #fff;    
+}
+
+.btn:hover {
+    background-color:#909090 !important;
+    transition: all .5s;
+}
+
+.nav-link {
+    color: black !important;
+}
+
